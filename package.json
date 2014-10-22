@@ -1,0 +1,24 @@
+{
+  "name": "videojs-html5-hls",
+  "version": "0.0.0",
+  "description": "An HLS source handler for the video.js HTML5 playback tech",
+  "main": "videojs-html5-hls.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heff/videojs-html5-hls.git"
+  },
+  "keywords": [
+    "html5",
+    "hls",
+    "mse"
+  ],
+  "author": "heff",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/heff/videojs-html5-hls/issues"
+  },
+  "homepage": "https://github.com/heff/videojs-html5-hls"
+}
