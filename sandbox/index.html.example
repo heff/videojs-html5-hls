@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Video.js HTML5 HLS Sandbox</title>
+  
+  <!-- Set the root of the video.js source files -->
+  <script>
+    projectRoot = 'https://rawgit.com/heff/video.js/source-handler/';
+  </script>
+  <!-- Load Video.js Source Files -->
+  <script src="https://rawgit.com/heff/video.js/source-handler/build/source-loader.js"></script>
+
+  <!-- Load Video.js LESS. Must be CDN version of rawgit for CORS -->
+  <link rel="stylesheet/less" type="text/css" href="https://cdn.rawgit.com/heff/video.js/source-handler/src/css/video-js.less" />
+
+  <!-- Parse the LESS -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
+
+  <!-- Load the project -->
+  <script src="../videojs-html5-hls.js"></script>
+
+</head>
+<body>
+  <p style="background-color:#eee; border: 1px solid #777; padding: 10px; font-size: .8em; line-height: 1.5em; font-family: Verdana, sans-serif;">You can use /sandbox/ for writing and testing your own code. Nothing in /sandbox/ will get checked into the repo, except files that end in .example, so please don't edit or add those files. To get started make a copy of index.html.example and rename it to index.html.</p>
+
+  <video id="vid1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264" data-setup='{}'>
+    <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='application/x-mpegURL'>
+  </video>
+
+  <script>
+    vid = document.getElementById("vid1");
+  </script>
+
+</body>
+</html>
